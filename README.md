@@ -1,16 +1,31 @@
-# flutterapp
+# Flutter Licenses Demo
 
-A new Flutter application.
+A dome app that shows how to present the licenses in the app.
+Demo includes 2 modes, with About section and plain Licenses view.
 
-## Getting Started
+Flutter documentation can be foind here:
+ - [LicenseRegistry](https://api.flutter.dev/flutter/foundation/LicenseRegistry-class.html)
+ - [LicensePage](https://api.flutter.dev/flutter/material/LicensePage-class.html)
 
-This project is a starting point for a Flutter application.
+## Usage
 
-A few resources to get you started if this is your first Flutter project:
+To present the About dialog just:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+```
+showAboutDialog(context: context)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+```
+
+
+
+To present the Licenses view just:
+
+```
+showLicensePage(context: context)
+
+```
+  
+
+## Authors
+
+* **devzeze** -[GitHub](https://github.com/devzeze)
