@@ -9,22 +9,25 @@ Flutter documentation can be foind here:
 
 ## Usage
 
-To present the About dialog just:
+### To present the About dialog just:
 
 ```
 showAboutDialog(context: context)
 
 ```
 
+<img src="./docs/About.jpeg" width="400">
 
 
-To present the Licenses view just:
+
+### To present the Licenses view just:
 
 ```
 showLicensePage(context: context)
 
 ```
-  
+
+<img src="./docs/Licenses.jpeg" width="400">
 
 ## Authors
 
